@@ -1,0 +1,16 @@
+{
+  "name": "cyan-desktop",
+  "version": "1.0.0",
+  "description": "Desktop app for Cyan AI companion",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^25.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
