@@ -1,0 +1,24 @@
+{
+  "name": "cyan-launcher",
+  "version": "1.0.0",
+  "description": "Executable launcher for Cyan Orchestrator",
+  "main": "launcher.js",
+  "bin": {
+    "cyan-launcher": "./launcher.js"
+  },
+  "scripts": {
+    "build-exe": "pkg launcher.js --target node18-win-x64 --output cyan-orchestrator.exe"
+  },
+  "pkg": {
+    "assets": [
+      "package.json"
+    ],
+    "outputPath": "dist"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "keywords": ["cyan", "launcher", "ai", "orchestrator"],
+  "author": "Cyan Team",
+  "license": "MIT"
+}
